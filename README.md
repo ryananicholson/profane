@@ -14,9 +14,9 @@ Very easy to use
 python profane.py -r regexes.txt -s potential-bad-words.txt -d clean.txt
 ```
 
-| Command-line Option       | Description               |
-|---------------------------|---------------------------|
-| `-r` / `--regexes`        | File with profane regexes |
-| `-s` / `--source`         | File to be audited        |
-| `-d` / `--destination`    | Clean file to save to     |
-| `-v` / `--verbose`        | Show clean lines as well  |
+| Command-line Option       | Required? | Description               |
+|---------------------------|-----------|---------------------------|
+| `-r` / `--regexes`        | Yes       | File with profane regexes |
+| `-s` / `--source`         | Yes       | File to be audited        |
+| `-d` / `--destination`    | Yes       | Clean file to save to     |
+| `-v` / `--verbose`        | No        | Show clean lines as well  |
