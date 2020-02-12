@@ -19,3 +19,4 @@ python profane.py -r regexes.txt -s potential-bad-words.txt -d clean.txt
 | `-r` / `--regexes`        | File with profane regexes |
 | `-s` / `--source`         | File to be audited        |
 | `-d` / `--destination`    | Clean file to save to     |
+| `-v` / `--verbose`        | Show clean lines as well  |
