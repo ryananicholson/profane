@@ -2,7 +2,7 @@ import re
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-r", "--regex", help="File with the profane regular expressions", required=True)
+parser.add_argument("-r", "--regexes", help="File with the profane regular expressions", required=True)
 parser.add_argument("-s", "--source", help="Source file to be audited", required=True)
 parser.add_argument("-d", "--destination", help="Destination file to write clean words to", required=True)
 args = parser.parse_args()
