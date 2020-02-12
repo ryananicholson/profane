@@ -9,7 +9,7 @@ args = parser.parse_args()
 
 f = open(args.source, "r")
 w = open(args.destination, "w")
-r = open(args.regex, "r")
+r = open(args.regexes, "r")
 badwords = []
 
 for line in r:
