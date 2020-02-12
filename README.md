@@ -1,5 +1,7 @@
 # profane
 
+## Description
+
 Very simple (and probably inefficient) Python script to crawl a file and look for profanity. What is deemed profane is in a regex file (**regexes.txt** is a good one to start with for *most* English profanity).
 
 Has been tested with both Python2 and Python3.
